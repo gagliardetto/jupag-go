@@ -1591,7 +1591,7 @@
 	],
 	"types": [
 		{
-			"name": "Swap",
+			"name": "Swap0",
 			"type": {
 				"kind": "struct",
 				"fields": [
@@ -1613,7 +1613,7 @@
 			}
 		},
 		{
-			"name": "Swap",
+			"name": "Swap1",
 			"type": {
 				"kind": "struct",
 				"fields": [
@@ -1635,7 +1635,7 @@
 			}
 		},
 		{
-			"name": "Swap",
+			"name": "Swap2",
 			"type": {
 				"kind": "struct",
 				"fields": [
@@ -1651,7 +1651,7 @@
 			}
 		},
 		{
-			"name": "Swap",
+			"name": "Swap3",
 			"type": {
 				"kind": "struct",
 				"fields": [
@@ -1674,22 +1674,6 @@
 					{
 						"name": "aToB",
 						"type": "bool"
-					}
-				]
-			}
-		},
-		{
-			"name": "SwapInstrution",
-			"type": {
-				"kind": "enum",
-				"variants": [
-					{
-						"name": "Swap",
-						"fields": [
-							{
-								"defined": "Swap"
-							}
-						]
 					}
 				]
 			}
